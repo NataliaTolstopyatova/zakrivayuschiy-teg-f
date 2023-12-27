@@ -254,8 +254,8 @@
 }
 
 .card__like-button {
+  max-height: 38px;
   min-width: 130px;
-  border: 2px solid var(--accent-color, #000);
 }
 
 .button {
