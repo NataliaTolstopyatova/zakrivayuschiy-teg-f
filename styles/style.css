@@ -313,11 +313,11 @@
   transition: fill 0.3s 0.06s ease-in;
 }
 
-.like-icon.is-liked .heart  {
+.like-icon.is-liked .heart {
   animation: like 0.3s 0.1s ease-in;
 }
 
-.like-icon.is-liked .sparks  {
+.like-icon.is-liked .sparks {
   animation: sparks 0.3s 0.3s ease-in;
 }
 
@@ -358,7 +358,7 @@
   2px 0px 0 0 var(--accent-color, #000);
 }
 
-.button::after{
+.button::after {
   content:'';
 	position: absolute;
 	top: 0;
