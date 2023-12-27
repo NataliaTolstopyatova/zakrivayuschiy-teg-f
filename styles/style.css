@@ -127,7 +127,7 @@
   margin-block-end: 54px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 54px;
 }
 
 .card__list-item {
@@ -237,11 +237,12 @@
   padding-inline-end: 25px;
   padding-block-end: 21px;
   display: flex;
-  gap: 1px;
+  gap: 6px;
   justify-content: flex-end;
 }
 
 .card__icon-button {
+  padding: 0;
   border: none;
 }
 
@@ -254,7 +255,6 @@
 }
 
 .card__like-button {
-  max-height: 38px;
   min-width: 130px;
 }
 
@@ -364,6 +364,10 @@
 }
 
 @media (width <= 375px) {
+  .card__list {
+    gap: 50px;
+  }
+
   .button__section {
     flex-direction: column;
   }
