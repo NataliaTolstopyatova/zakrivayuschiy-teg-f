@@ -32,9 +32,11 @@ a {
 
 button,
 input {
+  background-color: transparent;
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  cursor: pointer;
 }
 
 ul,

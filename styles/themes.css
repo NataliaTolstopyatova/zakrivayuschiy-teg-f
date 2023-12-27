@@ -4,3 +4,60 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+:root.theme-light {
+    --main-font: 'Inter';
+    --main-wght-title: 700;
+    --main-wght-text: 400;
+    --accent-font: 'PressStart2P';
+    --bg-color: #FFF;
+    --accent-color: #000;
+    --width: clamp(23.188rem, 16.035rem + 30.516vw, 43.5rem);
+    --color-shadow: #FFFFFF;
+    --color-inversion: #FFF;
+    --main-color: #d3d3d3;
+    --color-from: #e7e7e7;
+    --color-to: #1a1a1a;
+    --contour-heart: #000000;
+    --sparks-heart: #FF0000;
+    --core-heart: #000000;
+    --body-heart: #000000;
+}
+
+:root.theme-dark {
+    --main-font: 'Inter';
+    --main-wght-title: 785;
+    --main-wght-text: 465;
+    --accent-font: 'PressStart2P';
+    --bg-color: #000;
+    --accent-color: #00CC14;
+    --color-shadow: #000;
+    --color-inversion: #00CC14;
+    --main-color: #000;
+    --color-from: #007f0c;
+    --color-to: #004306;
+    --contour-heart: #00CC14;
+    --main-heart: #FF0000;
+    --core-heart: #00CC14;
+    --body-heart: #00CC14;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --main-font: 'Inter';
+        --main-wght-title: 785;
+        --main-wght-text: 465;
+        --accent-font: 'PressStart2P';
+        --bg-color: #000;
+        --accent-color: #00CC14;
+        --color-shadow: #000;
+        --color-inversion: #00CC14;
+        --main-color: #000;
+        --color-from: #007f0c;
+        --color-to: #004306;
+        --contour-heart: #00CC14;
+        --main-heart: #FF0000;
+        --core-heart: #00CC14;
+        --body-heart: #00CC14;
+    } 
+}
